@@ -198,7 +198,8 @@ img {
 
 }
 
-.hero-item:hover .hero-cover-text {
+.hero-list-link:hover .hero-cover-text,
+.hero-list-link:focus .hero-cover-text {
   transform: translateY(0%);
   transition: 250ms cubic-bezier(0.4,
       0,
@@ -223,14 +224,12 @@ img {
   background-color: #4D5AE5;
   height: 100%;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.hero-cover-text {
   transform: translateY(100%);
+
 }
 
-.container-hero:hover {
+.container-hero:hover,
+.container-hero:focus {
   border-left: 0.5px solid #F4F4FD;
   border-right: 0.5px solid #F4F4FD;
   border-bottom: 0.5px solid #F4F4FD;
